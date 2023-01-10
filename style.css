@@ -1,0 +1,87 @@
+div{
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.div1{
+ background-color: blue;
+ opacity:0.5;
+}
+
+.div1:hover{
+    opacity: 1;
+
+}
+
+.div2{
+    background-color: red;
+}
+
+.div2:hover{
+    background-color: yellowgreen;
+}
+
+.div3{
+    background-color: yellow;
+}
+
+.div3:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.div4{
+    background-color: orangered;
+}
+
+.div4:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+
+.div5{
+    background-color: turquoise;
+}
+
+.div5:hover{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+}
+
+.div6{
+    background-color: green;
+}
+
+.div6:hover{
+    border-radius:50%;
+}
+
+.div7{
+     background-color: blueviolet;
+}
+
+.div7:hover{
+    box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+.div8{
+    background-color: rosybrown;
+}
+
+.div8:hover{
+    box-shadow: inset 0 0 0 25px #53a7ea;
+}
